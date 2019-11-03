@@ -1,0 +1,120 @@
+
+
+
+/*===========================
+    14. COUNTER css 
+===========================*/
+
+
+.counter-area{
+    background-color: $heading-color;
+    
+    @media #{$md}{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+
+
+.single-counter{
+    
+    & .counter-icon{
+        width: 120px;
+        height: 120px;
+        line-height: 110px;
+        text-align: center;
+        background-image: url(../images/dots-2.png);
+        background-repeat: repeat;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+        z-index: 9;
+        
+        @media #{$md}{
+            width: 95px;
+            height: 95px;
+            line-height: 95px;
+        }
+        
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            @include transform(scale(0.9));
+            background-color: $heading-color;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+        }
+        
+        & i{
+            font-size: 60px;
+            color: $white;
+            position: relative;
+            z-index: 5;
+            line-height: 125px;
+            
+            @media #{$md}{
+                font-size: 40px;
+                line-height: 95px;
+            }
+        }
+    }
+    & .counter-content{
+        padding: 75px 30px 30px;
+        background-image: url(../images/dots-2.png);
+        background-repeat: repeat;
+        position: relative;
+        margin-top: -60px;
+    
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            @include transform(scaleX(0.96) scaleY(0.94));
+            background-color: $heading-color;
+            top: 0;
+            left: 0;
+            
+            @media #{$sm}{
+                @include transform(scaleX(0.97) scaleY(0.94));
+            }
+        }
+        
+        & .count{
+            font-size: 60px;
+            color: $white;
+            font-weight: 700;
+            font-family: $opensans;
+            position: relative;
+            z-index: 5;
+            
+            @media #{$lg}{
+                font-size: 50px;
+            }
+            @media #{$md}{
+                font-size: 40px;
+            }
+            @media #{$xs}{
+                font-size: 50px;
+            }
+        }
+        & .sub-title{
+            font-size: 18px;
+            color: $white;
+            font-weight: 500;
+            position: relative;
+            z-index: 5;
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,202 @@
+
+
+
+/*===========================
+  18. DOCTORS DETAILS css 
+===========================*/
+
+
+.doctors-details-page{
+    @media #{$md}{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+}
+
+
+.doctors-details{
+    & .doctors-thumb{
+        margin-right: 40px;
+        
+        @media #{$lg}{
+            margin-right: 0;
+        }
+        @media #{$md}{
+            margin-right: 0;
+        }
+        @media #{$xs}{
+            margin-right: 0;
+        }
+        
+        &  img{
+            width: 100%;
+        }
+        
+        & .social{
+            background-color: $theme-color;
+            padding: 20px 0;
+            
+            & ul{
+                & li{
+                    display: inline-block;
+                    margin: 0 12px;
+                    
+                    @media #{$xs}{
+                        margin: 0 6px;
+                    }
+                    
+                    & a{
+                        font-size: 18px;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        border: 2px solid $white;
+                        border-radius: 50%;
+                        color: $white;
+                        @include transition(0.3s);
+                        
+                        @media #{$xs}{
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            font-size: 16px;
+                        }
+                        
+                        &:hover{
+                            background-color: $white;
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    & .doctors-info{
+        & .doctors-name{
+            font-size: 50px;
+            font-weight: 700;
+            color: $heading-color;
+            margin-bottom: 10px;
+            
+            @media #{$lg}{
+                font-size: 40px;
+            }
+            @media #{$xs}{
+                font-size: 26px;
+            }
+            @media #{$sm}{
+                font-size: 30px;
+            }
+        }
+        
+        & .sub-title{
+            font-size: 18px;
+            font-weight: 500;
+            color: $theme-color;
+            margin-bottom: 25px;
+            
+            @media #{$lg}{
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            @media #{$xs}{
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            @media #{$sm}{
+                font-size: 16px;
+            }
+        }
+        
+        & .text{
+            margin-bottom: 35px;
+            
+            @media #{$lg}{
+                margin-bottom: 25px;
+            }
+        }
+
+        & .doctors-education{
+            
+            & .education-title{
+                font-size: 35px;
+                font-weight: 700;
+                color: $heading-color;
+                margin-bottom: 35px;
+                
+                @media #{$lg}{
+                    font-size: 28px;
+                    margin-bottom: 15px;
+                }
+                @media #{$xs}{
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                }
+            }
+            & .education-info{
+                margin-top: 10px;
+                
+                @media #{$xs}{
+                    margin-top: 15px;
+                }
+                @media #{$sm}{
+                    margin-top: 10px;
+                }
+                
+                & .info-left{
+                    color: $heading-color;
+                    font-size: 16px;
+                    max-width: 180px;
+                    width: 100%;
+                    
+                    
+                    & span{
+                        float: right;
+                        
+                        @media #{$xs}{
+                            float: none;
+                        }
+                        @media #{$sm}{
+                            float: right;
+                        }
+                    }
+                }
+                & .info-right{
+                    color: $body-color;
+                    font-size: 16px;
+                    padding-left: 15px;
+                    
+                    @media #{$xs}{
+                        padding-left: 0;
+                    }
+                    @media #{$sm}{
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .doctors-content{
+        margin-top: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

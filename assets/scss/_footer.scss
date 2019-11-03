@@ -1,0 +1,322 @@
+
+
+
+/*===========================
+      12. FOOTER css 
+===========================*/
+
+
+.footer-area{
+    background-color: $heading-color;
+    padding-top: 100px;
+    margin-top: -100px;
+    position: relative;
+    
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        width: 100%;
+        height: 60px;
+        background-image: url(../images/footer-shape.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+.footer-widget{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    @media #{$md}{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    @media #{$xs}{
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
+
+.footer-title{
+    & .title{
+        font-size: 24px;
+        color: $white;
+        
+        @media #{$xs}{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.footer-contact{
+    
+    & .single-f-contact{
+        margin-top: 20px;
+        
+        & .contact-icon{
+            & i{
+                color: $white;
+                font-size: 42px;
+                line-height: 36px;
+            }
+        }
+        & .contact-content{
+            padding-left: 20px;
+            
+            & p{
+                color: $white;
+            }
+        }
+    }
+}
+
+
+.footer-departments{
+    & .footer-department-link{
+        & ul{
+            width: 50%;
+            
+            & li{
+                & a{
+                    font-size: 16px;
+                    color: $white;
+                    margin-top: 10px;
+                    @include transition(0.3s);
+                    
+                    @media #{$xs}{
+                        font-size: 14px;
+                    }
+                    @media #{$sm}{
+                        font-size: 16px;
+                    }
+                    
+                    &:hover{
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.footer-news{
+    & .single-f-news{
+        margin-top: 30px;
+        
+        & .news-thumb{
+            & a{                
+                & img{
+                    width: 80px;
+                    height: 80px;
+                    object-fit: cover;
+                    object-position: center center;
+                }
+            }
+        }
+        
+        & .news-content{
+            padding-left: 25px;
+            
+            & .news-title{
+                & a{
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: $white;
+                    margin-bottom: 5px;
+                    @include transition(0.3s);
+                    line-height: 28px;
+                    
+                    @media #{$xs}{
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+                    @media #{$sm}{
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            & span{
+                font-size: 15px;
+                color: $white;
+                font-style: italic;
+            }
+        }
+        
+        &:hover{
+            & .news-content{
+                & .news-title{
+                    & a{
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.footer-logo-area{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    @media #{$xs}{
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+}
+.footer-logo{
+    padding-right: 70px;
+    
+    @media #{$lg}{
+        padding-right: 30px;
+    }
+    @media #{$xs}{
+        padding-right: 0;
+    }
+    
+    & .text{
+        color: $white;
+        padding-top: 30px;
+    }
+}
+
+.footer-subscribe{
+    & .subscribe-form{
+        position: relative;
+        
+        & input{
+            width: 100%;
+            height: 70px;
+            border-radius: 50px;
+            background-color: rgba(4, 154, 229, 0.35);
+            border: 0;
+            padding: 0 30px;
+            color: $white;
+            
+            
+            @media #{$xs}{
+                height: 55px;
+            }
+            
+            @include placeholder{
+                opacity: 1;
+                color: $white;
+            }
+        }
+
+        & .main-btn{
+            width: 210px;
+            height: 70px;
+            line-height: 70px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 50px;
+            
+            &::before{
+                border-radius: 50px;
+            }
+            
+            @media #{$xs}{
+                position: relative;
+                left: 0;
+                right: auto;
+                margin-top: 10px;
+                height: 55px;
+                line-height: 55px;
+            }
+            
+            @media #{$sm}{
+                position: absolute;
+                left: auto;
+                right: 0;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+.copyright{}
+.copyright-content{
+    padding: 30px 0;
+    
+    & .text{
+        color: $white;
+        font-size: 18px;
+        
+        @media #{$xs}{
+            font-size: 12px;
+        }
+        @media #{$sm}{
+            font-size: 16px;
+        }
+    }
+}
+
+
+
+
+
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+    @include transform(rotate(-90deg) translate(50%, 100%));
+    
+    & i{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background-color: $theme-color;
+        color: $white;
+        text-align: center;
+        font-size: 18px;
+        @include transition(0.3s);
+    }
+    
+    & span{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $theme-color;
+        font-weight: 500;
+        margin-left: 10px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(0.3s);
+        @include transform(translateX(-50%));
+    }
+    
+    &:hover{
+        & i{
+            background-color: $theme-color-2;
+            color: $white;
+        }
+        & span{
+            opacity: 1;
+            visibility: visible;
+            @include transform(translateX(0));
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

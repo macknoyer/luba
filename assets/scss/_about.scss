@@ -1,0 +1,259 @@
+
+
+
+/*===========================
+    5.ABOUT css 
+===========================*/
+
+
+.about-area {
+    @media #{$md}{
+        padding-top: 0;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+}
+
+
+.about-image{
+    position: relative;
+    
+    &::before{
+        position: absolute;
+        content: '';
+        width: 183px;
+        height: 183px;
+        background-image: url(../images/dots.png);
+        background-repeat: repeat;
+        top: -50px;
+        left: -50px;
+        z-index: -1;
+        @include animation(up-down 3s infinite);
+    }
+    
+    & img{
+        width: 100%;
+    }
+}
+
+@keyframes up-down{
+    0%{
+        @include transform(translateY(-20px));
+    }
+    50%{
+        @include transform(translateY(0));
+    }
+    100%{
+        @include transform(translateY(-20px));
+    }
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        @include transform(translateY(-20px));
+    }
+    50%{
+        @include transform(translateY(0));
+    }
+    100%{
+        @include transform(translateY(-20px));
+    }
+}
+
+@-o-keyframes up-down{
+    0%{
+        @include transform(translateY(-20px));
+    }
+    50%{
+        @include transform(translateY(0));
+    }
+    100%{
+        @include transform(translateY(-20px));
+    }
+}
+
+@-moz-keyframes up-down{
+    0%{
+        @include transform(translateY(-20px));
+    }
+    50%{
+        @include transform(translateY(0));
+    }
+    100%{
+        @include transform(translateY(-20px));
+    }
+}
+
+@-ms-keyframes up-down{
+    0%{
+        @include transform(translateY(-20px));
+    }
+    50%{
+        @include transform(translateY(0));
+    }
+    100%{
+        @include transform(translateY(-20px));
+    }
+}
+
+
+
+.about-content{
+    
+    & .text{
+        margin-top: 20px;
+        
+        @media #{$lg}{
+            margin-top: 10px;
+        }
+    }
+    
+    & .about-form{
+        position: relative;
+        margin-top: 35px;
+        
+        @media #{$lg}{
+            margin-top: 25px;
+        }
+        
+        & input{
+            width: 100%;
+            height: 65px;
+            border: 2px solid $theme-color;
+            padding: 0 30px;
+            border-radius: 50px;
+            
+            @include placeholder{
+                opacity: 1;
+                color: $body-color;
+            }
+        }
+        & .main-btn{
+            border-radius: 50px;
+            position: absolute;
+            top: 7px;
+            right: 7px;
+            
+            &:hover{
+                @include box-shadow (0px 11px 20px 0px rgba(4, 154, 229, 0.4));
+            }
+            
+            &::before{
+                border-radius: 50px;
+            }
+            
+            @media #{$xs}{
+                position: relative;
+                width: 100%;
+                top: 0;
+                right: 0;
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+
+
+/*==== INDEX 2 ====*/
+
+
+
+.about-two-area{
+    @media #{$md}{
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 0px;
+        padding-bottom: 80px;
+    }
+}
+
+.about-two-image{
+    margin-right: 45px;
+    
+    @media #{$md}{
+        margin-right: 0;
+    }
+    @media #{$xs}{
+        margin-right: 0;
+    }
+    
+    & img{
+        padding: 6px;
+        background-color: $white;
+        width: 100%;
+        @include box-shadow (0px 0px 20px 0px rgba(4, 154, 229, 0.35));
+    }
+}
+
+.about-two-content{
+    & > .text{
+        margin-top: 25px;
+    }
+    
+    & .about-list{
+        position: relative;
+        margin-top: 20px;
+        
+        & .list-icon{
+            position: absolute;
+            top: 3px;
+            left: 0;
+            
+            & i{
+                font-size: 18px;
+                color: $theme-color;
+                
+                @media #{$lg}{
+                    font-size: 16px;
+                }
+                @media #{$xs}{
+                    font-size: 16px;
+                }
+            }
+        }
+        & .list-content{
+            padding-left: 25px;
+            
+            & p{
+                font-size: 18px;
+                color: $heading-color;
+                
+                @media #{$lg}{
+                    font-size: 16px;
+                }
+                @media #{$xs}{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,359 @@
+
+
+
+/*===========================
+     7.APPOINTMENT WORKING css 
+===========================*/
+
+
+.appointment-working {
+    position: relative;
+    background-color: $theme-color;
+    
+    @media #{$md}{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    
+    &::before{
+        position: absolute;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/shape-1.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        
+        @media #{$md}{
+            width: 100%;
+            height: 50%;
+        }
+        @media #{$xs}{
+            width: 100%;
+            height: 53%;
+        }
+        @media #{$sm}{
+            width: 100%;
+            height: 56%;
+        }
+    }
+    
+    
+    & .working-bg{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 47.5%;
+        height: 100%;
+        background-color: $heading-color;
+        
+        @media #{$desktop}{
+            width: 48%;
+        }
+        
+        @media #{$md}{
+            width: 100%;
+            height: 50%;
+            top: auto;
+            bottom: 0;
+        }
+        @media #{$xs}{
+            width: 100%;
+            height: 47%;
+            top: auto;
+            bottom: 0;
+        }
+        @media #{$sm}{
+            height: 43.5%;
+        }
+    }
+}
+
+
+
+.appointment-area{
+    position: relative;
+    z-index: 5;
+    
+    & .appointment-form{
+        & .single-appointment-form{
+            margin-top: 30px;
+            position: relative;
+            
+            & input{
+                width: 100%;
+                height: 50px;
+                padding: 0 20px;
+                font-size: 15px;
+                color: $white;
+                border: 1px solid $border-color;
+                background-color: transparent;
+                border-radius: 50px;
+                
+                @include placeholder{
+                    opacity: 1;
+                    color: $white;
+                }
+            }
+            
+            & .input-group-append{
+                position: absolute;
+                top: 0;
+                right: 0;
+                & .btn{
+                    &.btn-outline-secondary {
+                        border-radius: 0;
+                        border: 0;
+                        width: 50px;
+                        height: 50px;
+                        color: $white;
+                    }
+                }
+            }
+            
+            & .nice-select{
+                background: none;
+                width: 100%;
+                height: 50px;
+                border-radius: 50px;
+                
+                &:focus{
+                    border-color: $white;
+                }
+                &::after{
+                    width: 8px;
+                    height: 8px;
+                    border-color: $white;
+                }
+                
+                & .current{
+                    line-height: 50px;
+                    font-size: 15px;
+                    color: $white;
+                    font-family: $opensans;
+                }
+                
+                & .list{
+                    margin-top: 0;
+                    border-radius: 0;
+                    width: 100%;
+                    
+                    & .option{
+                        font-size: 14px;
+                        font-family: $opensans;
+                        line-height: 35px;
+                        min-height: 35px;
+                    }
+                }
+            }
+            
+            & .main-btn{
+                border-radius: 50px;
+                
+                &:hover{
+                    border-color: $white;
+                }
+            }
+        }
+    }
+}
+
+
+
+.gj-picker-bootstrap {
+	border: 0;
+	border-radius: 0;
+	padding: 4px;
+    @include box-shadow (0px 0px 22px 0px rgba(4, 154, 229, 0.2));
+    
+    & div[role="navigator"]{
+        height: 40px;
+	    line-height: 40px;
+        
+        & i{
+            font-size: 16px;
+            color: $heading-color;
+        }
+        
+        & div[role="period"]{
+            font-weight: 500;
+	        font-size: 16px;
+            font-family: $opensans;
+            color: $heading-color;
+        }
+    }
+    
+    & table{
+        & tr{
+            & th{
+                & div{
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    & table{
+        & tr{
+            & td{
+                & div{
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    font-size: 14px;
+                    color: $heading-color;
+                }
+            }
+        }
+    }
+    
+    & table{
+        & tr{
+            & td{
+                &.focused{
+                    & div{
+                        background: $theme-color;
+                        border-radius: 0;
+                        color: $white;
+                    }
+                }
+                
+                &.gj-cursor-pointer{
+                    & div{
+                        @include transition(0.3s);
+                        
+                        &:focus,
+                        &:hover{
+                            background: $theme-color;
+                            border-radius: 0;
+                            color: $white;
+                        }
+                    }
+                }
+                
+                &.selected{
+                    &.gj-cursor-pointer{
+                        & div{
+                            background: $theme-color;
+                            border-radius: 0;
+                            color: $white;
+                        }
+                    }
+                }
+                
+                &.disabled{
+                    & div{
+                        color: $border-color;
+                    }
+                }
+                &.other-month{
+                    & div{
+                        color: $border-color;
+                    }
+                }
+                &.today{
+                    & div{
+                        font-weight: 700;
+                        color: $heading-color;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+.working-area{
+    position: relative;
+    z-index: 5;
+    padding-left: 70px;
+    
+    @media #{$lg}{
+        padding-left: 30px;
+    }
+    
+    @media #{$md}{
+        padding-left: 0;
+        padding-top: 50px;
+        padding-right: 70px;
+    }
+    @media #{$xs}{
+        padding-left: 0;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    
+    & .working-content{
+        & .single-work-time{
+            & p{
+                color: $white;
+                margin-top: 30px;
+                
+                & .time{
+                    margin-left: 30px;
+                }
+                & .closed{
+                    margin-left: 90px;
+                    text-transform: uppercase;
+                }
+            }
+            
+            & .number{
+                font-size: 18px;
+                font-weight: 500;
+                color: $white;
+                
+                & i{
+                    color: $theme-color;
+                    margin-right: 5px;
+                }
+            }
+            
+            & .main-btn{
+                margin-top: 85px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

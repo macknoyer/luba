@@ -1,0 +1,296 @@
+
+
+
+/*===========================
+     6.DEPARTMENT css 
+===========================*/
+
+
+.department-area {
+    @media #{$md}{
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 75px;
+        padding-bottom: 80px;
+    }
+}
+
+.department-tab{
+    & .nav{
+        
+        & .nav-item{
+            margin-top: 20px;
+            
+            @media #{$xs}{
+                width: 19%;
+            }
+            
+            & a{
+                text-align: center;
+                border: 1px solid $border-color;
+                padding: 30px 5px;
+                width: 165px;
+                height: 165px;
+                position: relative;
+                @include transition(0.3s);
+                
+                @media #{$md}{
+                    width: 130px;
+                    height: 130px;
+                    padding: 12px 5px;
+                }
+                @media #{$xs}{
+                    width: auto;
+                    height: auto;
+                    padding: 8px 5px;
+                    display: block;
+                }
+                @media #{$sm}{
+                    width: 95px;
+                    height: 95px;
+                    padding: 12px 5px;
+                }
+                
+                &::before{
+                    position: absolute;
+                    content: '';
+                    bottom: -16px;
+                    left: 50%;
+                    @include transform(translateX(-50%) rotate(45deg));
+                    width: 30px;
+                    height: 30px;
+                    border-right: 1px solid $theme-color;
+                    border-bottom: 1px solid $theme-color;
+                    opacity: 0;
+                    visibility: hidden;
+                    @include transition(0.3s);
+                    background-color: #ecf2ff;
+                    
+                    @media #{$xs}{
+                        display: none;
+                    }
+                    
+                    @media #{$sm}{
+                        width: 20px;
+                        height: 20px;
+                        bottom: -11px;
+                        display: block;
+                    }
+                }
+                
+                & i{
+                    font-size: 70px;
+                    color: $heading-color;
+                    line-height: 60px;
+                    @include transition(0.3s);
+                    
+                    @media #{$md}{
+                        font-size: 50px;
+                        line-height: 45px;
+                    }
+                    @media #{$xs}{
+                        font-size: 26px;
+                        line-height: 20px;
+                    }
+                    @media #{$sm}{
+                        font-size: 30px;
+                        line-height: 20px;
+                    }
+                }
+                
+                & span{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: $heading-color;
+                    display: block;
+                    margin-top: 15px;
+                    @include transition(0.3s);
+                    
+                    @media #{$md}{
+                        font-size: 16px;
+                    }
+                    @media #{$xs}{
+                        font-size: 12px;
+                        margin-top: 5px;
+                    }
+                    @media #{$sm}{
+                        font-size: 15px;
+                        margin-top: 5px;
+                    }
+                }
+                
+                
+                &:hover,
+                &.active{
+                    border-color: $theme-color;
+                    background-color: #ecf2ff;
+                    
+                    & i{
+                        color: $theme-color;
+                    }
+                    
+                    & span{
+                        color: $theme-color;
+                    }
+                    
+                    &::before{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .tab-content{
+        
+        @media #{$xs}{
+            margin-top: 30px;
+        }
+        
+        & .tab-pane{
+            
+            .department-content{
+                border: 5px solid rgba(4, 154, 229, 0.72);
+                padding: 15px 30px 55px;
+                
+                @media #{$xs}{
+                    padding: 0 20px 30px;
+                }
+                
+                & .department-image{
+                    & img{
+                        width: 100%;
+                    }
+                }
+                & .department-info-text{
+                    .sub-title{
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $theme-color;
+                        text-transform: uppercase;
+                        padding-left: 70px;
+                        position: relative;
+                        
+                        @media #{$xs}{
+                            font-size: 16px;
+                        }
+                        
+                        &::before{
+                            position: absolute;
+                            content: '';
+                            width: 60px;
+                            height: 2px;
+                            background-color: $theme-color;
+                            top: 50%;
+                            left: 0;
+                            @include transform(translateY(-50%));
+                        }
+                    }
+                    .title{
+                        font-size: 30px;
+                        font-weight: 700;
+                        margin-top: 15px;
+                        
+                        @media #{$xs}{
+                            font-size: 22px;
+                        }
+                    }
+                    .text{
+                        margin-top: 25px;
+                    }
+                    .main-btn{
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/*===== INDEX 2 =====*/
+
+.department-two-area{
+    @media #{$md}{
+        padding-top: 95px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 75px;
+        padding-bottom: 80px;
+    }
+}
+
+.single-department-two{
+    & .department-thumb{
+        & a{
+            display: block;
+            & img{
+                width: 100%;
+            }
+        }
+    }
+    
+    & .department-content{
+        border: 5px solid rgba(4, 154, 229, 0.1);
+        border-top: 0;
+        padding: 35px 25px;
+        background-color: $white;
+        @include transition(0.3s);
+        
+        @media #{$xs}{
+            padding: 25px 15px;
+        }
+        
+        & .department-title{
+            & a{
+                font-size: 24px;
+                font-weight: 700;
+                color: $heading-color;
+                margin-bottom: 25px;
+                @include transition(0.3s);
+                
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+        & .text{
+            margin-bottom: 25px;
+        }
+        & .main-btn{
+            border-color: rgba(4, 154, 229, 0.18);
+                        
+            &:hover{
+                @include box-shadow (0px 6px 20px 0px rgba(4, 154, 229, 0.65));
+            }
+        }
+    }
+    
+    &:hover{
+        & .department-content{
+            border-color: $white;
+            @include box-shadow (0px 0px 16px 0px rgba(4, 154, 229, 0.21));
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

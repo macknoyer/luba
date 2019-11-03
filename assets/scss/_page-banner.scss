@@ -1,0 +1,83 @@
+
+
+
+/*===========================
+    12. PAGE BANNER css 
+===========================*/
+
+
+.page-banner{}
+
+
+
+.page-content{
+    position: relative;
+    z-index: 5;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+    @media #{$md}{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    @media #{$xs}{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    & .page-title{
+        font-size: 72px;
+        font-weight: 700;
+        color: $white;
+        margin-bottom: 20px;
+        
+        @media #{$lg}{
+            font-size: 62px;
+        }
+        
+        @media #{$md}{
+            font-size: 48px;
+        }
+        @media #{$xs}{
+            font-size: 30px;
+        }
+    }
+    
+    & ul{
+        & li{
+            display: inline-block;
+            position: relative;
+            
+            
+            &+li{
+                margin-left: 30px;
+                
+                &::before{
+                    position: absolute;
+                    content: "\ea46";
+                    font-family: lineicons;
+                    color: $white;
+                    left: -24px;
+                    top: 3px;
+                }
+            }
+            
+            & a{
+                font-size: 18px;
+                font-weight: 500;
+                color: $white;
+                font-family: $opensans;
+                
+                @media #{$xs}{
+                    font-size: 16px;
+                }
+                @media #{$sm}{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+
+

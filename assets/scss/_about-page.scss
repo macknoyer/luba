@@ -1,0 +1,214 @@
+
+
+
+/*===========================
+    13. ABOUT PAGE css 
+===========================*/
+
+
+.about-page{
+    position: relative;
+    
+    @media #{$md}{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    
+    & .about-shape-left{
+        position: absolute;
+        bottom: 130px;
+        left: 0;
+        max-width: 130px;
+        z-index: -1;
+        
+        @media #{$desktop}{
+            max-width: none;
+        }
+    }
+    & .about-shape-right{
+        position: absolute;
+        top: 215px;
+        right: 0;
+        max-width: 200px;
+        z-index: -1;
+        
+        @media #{$desktop}{
+            max-width: none;
+        }
+    }
+}
+
+
+.about-features{
+    @media #{$md}{
+        padding-bottom: 50px;
+    }
+    @media #{$xs}{
+        padding-bottom: 30px;
+    }
+}
+
+.single-about-features{
+    & .features-icon{
+        & i{
+            font-size: 60px;
+            color: $theme-color;
+            width: 95px;
+            height: 95px;
+            line-height: 91px;
+            border: 2px solid $border-color;
+            border-radius: 10px;
+            text-align: center;
+            @include transition(0.3s);
+            
+            @media #{$lg}{
+                width: 75px;
+                height: 75px;
+                line-height: 71px;
+                font-size: 40px;
+            }
+            @media #{$xs}{
+                width: 75px;
+                height: 75px;
+                line-height: 71px;
+                font-size: 40px;
+            }
+        }
+    }
+    & .features-content{
+        padding-left: 20px;
+        
+        & .features-title{
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 15px;
+            
+            @media #{$lg}{
+                font-size: 20px;
+            }
+            @media #{$xs}{
+                font-size: 20px;
+            }
+        }
+        & .text{
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+    
+    &:hover{
+        & .features-icon{
+            & i{
+                border-color: $theme-color;
+            }
+        }
+    }
+}
+
+
+.about-page-content{
+    
+    @media #{$md}{
+        padding-top: 0;
+    }
+    @media #{$xs}{
+        padding-top: 0;
+    }
+    
+    & .text{
+        margin-bottom: 5px;
+    }
+    & ul{
+        & li{
+            width: 50%;
+            float: left;
+            font-size: 16px;
+            color: $heading-color;
+            margin-top: 20px;
+            
+            @media #{$xs}{
+                width: 100%;
+                float: none;
+            }
+            @media #{$sm}{
+                width: 50%;
+                float: left;
+            }
+            
+            & i{
+                margin-right: 5px;
+                color: $theme-color;
+                font-size: 18px;
+            }
+        }
+    }
+    
+    & .main-btn{
+        margin-top: 35px;
+    }
+}
+
+.about-image-tow{
+    position: relative;
+    
+    &::before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background-color: rgba(4, 154, 229, 0.3);
+        width: 100%;
+        height: 100%;
+    }
+    
+    & img{
+        width: 100%;
+    }
+    
+    & .about-video{
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        border-radius: 50%;
+        color: $white;
+        background-color: $theme-color;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        font-size: 30px;
+        @include transition(0.3s);
+        
+        &:hover{
+            color: $theme-color;
+            background-color: $white;
+        }
+        
+        @media #{$xs}{
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+        }
+    }
+}
+
+
+.about-content-tow{
+    & .text{}
+}
+
+
+
+
+
+
+
+
+
+
+

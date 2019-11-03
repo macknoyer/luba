@@ -1,0 +1,79 @@
+
+
+
+/*===========================
+      17. DOCTORS css 
+===========================*/
+
+
+.doctors-page{}
+
+
+
+.doctors-head{
+    
+    @media #{$md}{
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    @media #{$xs}{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+    & .doctors-thumb{}
+    & .doctors-content{
+        & .doctors-name{
+            font-size: 50px;
+            font-weight: 700;
+            color: $heading-color;
+            margin-bottom: 10px;
+            
+            @media #{$lg}{
+                font-size: 40px;
+            }
+            @media #{$xs}{
+                font-size: 28px;
+            }
+        }
+        & .sub-title{
+            font-size: 24px;
+            font-weight: 500;
+            color: $theme-color;
+            margin-bottom: 20px;
+            
+            @media #{$lg}{
+                font-size: 20px;
+            }
+            @media #{$xs}{
+                font-size: 18px;
+            }
+        }
+        & .text{
+            margin-bottom: 35px;
+        }
+        & .main-btn{
+            
+        }
+    }
+}
+
+
+
+.doctors-area{
+    
+    @media #{$md}{
+        padding-top: 45px;
+        padding-bottom: 100px;
+    }
+    @media #{$xs}{
+        padding-top: 35px;
+        padding-bottom: 80px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,414 @@
+
+
+
+
+/*===========================
+      3.SLIDER css 
+===========================*/
+
+
+.slider-area {}
+
+.slider-active {
+    width: 100%;
+    
+    & .slick-arrow{
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        left: 0px;
+        z-index: 5;
+        @include transition(0.3s);
+        opacity: 0;
+        
+        &.next {
+            left: auto;
+            right: 0px;
+        }
+        
+        & i{
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            background-color: $gray-2;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+            color: $theme-color;
+            @include transition(0.3s);
+            
+            @media #{$lg}{
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+            }
+            
+            &:hover{
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+    }
+    
+    &:hover{
+        & .slick-arrow{
+            left: 30px;
+            opacity: 1;
+            
+            &.next {
+                left: auto;
+                right: 30px;
+            }
+        }
+    }
+    
+    & .slick-dots{
+        position: absolute;
+        bottom: 30px;
+        text-align: center;
+        width: 100%;
+        
+        & li{
+            display: inline-block;
+            margin: 0 3px;
+            
+            & button{
+                font-size: 0;
+                width: 13px;
+                height: 13px;
+                background-color: $gray-2;
+                border: 0;
+                border-radius: 50%;
+            }
+            
+            &.slick-active{
+                & button{
+                    background-color: $theme-color;
+                }
+            }
+        }
+    }
+}
+
+
+.single-slider {
+    position: relative;
+
+    & .slider-image {
+        height: 600px;
+        width: 100%;
+        
+        @media #{$lg}{
+            height: 700px;
+        }
+        @media #{$md}{
+            height: 650px;
+        }
+        @media #{$xs}{
+            height: 600px;
+        }
+        
+        & img {
+            height: 800px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+    & .slider-content {
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        width: 100%;
+        z-index: 9;
+
+        & .slider-sub-title {
+            font-family: $opensans;
+            font-size: 24px;
+            color: $theme-color;
+            text-transform: uppercase;
+            font-weight: 700;
+            
+            @media #{$md}{
+                font-size: 22px;
+            }
+            @media #{$xs}{
+                font-size: 18px;
+            }
+            
+            &.sub-title{
+                color: $white;
+            }
+        }
+
+        & .slider-title {
+            font-size: 60px;
+            color: $heading-color;
+            font-weight: 700;
+            margin-top: 15px;
+            
+            @media #{$md}{
+                font-size: 56px;
+            }
+            @media #{$xs}{
+                font-size: 35px;
+            }
+            @media #{$sm}{
+                font-size: 40px;
+            }
+            
+            &.title{
+                color: $white;
+            }
+        }
+
+        & .main-btn {
+            margin-top: 50px;
+            height: 60px;
+            line-height: 60px;
+
+            & i {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+
+
+.kenburns {
+    @include animation(kenburns 10s);
+    @include animation-fill-mode(both);
+    @include animation-delay(2s);
+}
+
+@keyframes kenburns {
+    from {
+        @include transform(scale(1, 1));
+    }
+
+    to {
+        @include transform(scale(1.2, 1.2) rotate(0.1deg));
+    }
+}
+
+@-webkit-keyframes kenburns {
+    from {
+        @include transform(scale(1, 1));
+    }
+
+    to {
+        @include transform(scale(1.2, 1.2) rotate(0.1deg));
+    }
+}
+
+@-o-keyframes kenburns {
+    from {
+        @include transform(scale(1, 1));
+    }
+
+    to {
+        @include transform(scale(1.2, 1.2) rotate(0.1deg));
+    }
+}
+
+@-moz-keyframes kenburns {
+    from {
+        @include transform(scale(1, 1));
+    }
+
+    to {
+        @include transform(scale(1.2, 1.2) rotate(0.1deg));
+    }
+}
+
+@-ms-keyframes kenburns {
+    from {
+        @include transform(scale(1, 1));
+    }
+
+    to {
+        @include transform(scale(1.2, 1.2) rotate(0.1deg));
+    }
+}
+
+
+/*==== INDEX 2 ====*/
+
+
+.slider-two{
+    position: relative;
+    
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(4, 154, 229, 0.9);
+    }
+}
+
+
+.slider-two-active{
+    & .slick-arrow{
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        left: 0px;
+        z-index: 5;
+        @include transition(0.3s);
+        opacity: 0;
+        
+        &.next {
+            left: auto;
+            right: 0px;
+        }
+        
+        & i{
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            text-align: center;
+            background-color: $gray-2;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+            color: $theme-color;
+            @include transition(0.3s);
+            
+            @media #{$lg}{
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+            }
+            
+            &:hover{
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+    }
+    
+    &:hover{
+        & .slick-arrow{
+            left: 30px;
+            opacity: 1;
+            
+            &.next {
+                left: auto;
+                right: 30px;
+            }
+        }
+    }
+}
+
+
+.single-slider-two{
+    padding-top: 235px;
+    padding-bottom: 235px;
+    position: relative;
+    
+    @media #{$lg}{
+        padding-top: 160px;
+        padding-bottom: 180px;
+    }
+    @media #{$md}{
+        padding-top: 160px;
+        padding-bottom: 180px;
+    }
+    @media #{$xs}{
+        padding-top: 140px;
+        padding-bottom: 150px;
+    }
+    
+    & .single-slider-content{
+        & .slider-title{
+            font-size: 72px;
+            font-weight: 700;
+            color: $white;
+            margin-bottom: 20px;
+            
+            @media #{$lg}{
+                font-size: 62px;
+            }
+            @media #{$xs}{
+                font-size: 34px;
+            }
+        }
+        & .text{
+            color: $white;
+            margin-bottom: 35px;
+            font-size: 20px;
+            line-height: 30px;
+            
+            @media #{$lg}{
+                font-size: 18px;
+                line-height: 27px;
+            }
+            @media #{$xs}{
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+        & .main-btn{
+            line-height: 60px;
+            height: 60px;
+            
+            @media #{$xs}{
+                height: 45px;
+                line-height: 45px;
+            }
+            
+            & i{
+                margin-right: 10px;
+            }
+        }
+    }
+    
+    & .slider-hero{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        right: 0;
+        bottom: 0;
+        
+        @media #{$lg}{
+            width: 45%;
+        }
+        
+        & img{
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

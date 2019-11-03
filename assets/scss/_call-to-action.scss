@@ -1,0 +1,87 @@
+
+
+
+/*===========================
+   11. Call TO ACTION css 
+===========================*/
+
+.call-action{
+    position: relative;
+    z-index: 5;
+}
+
+
+
+.call-action{
+    border: 5px solid rgba(4, 154, 229, 0.1);
+    padding: 0 30px 30px;
+    background-color: $white;
+    
+    @media #{$xs}{
+        padding: 0 20px 20px;
+    }
+    @media #{$sm}{
+        padding: 0 30px 30px;
+    }
+    
+    & .action-content{
+        padding-right: 50px;
+        padding-top: 30px;
+        
+        @media #{$xs}{
+            padding-right: 0;
+            padding-top: 20px;
+        }
+        @media #{$sm}{
+            padding-top: 30px;
+        }
+        
+        & .action-title{
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            
+            @media #{$lg}{
+                font-size: 30px;
+            }
+            @media #{$xs}{
+                font-size: 24px;
+            }
+            @media #{$sm}{
+                font-size: 28px;
+            }
+        }
+        & .text{}
+    }
+    
+    & .action-btn{
+        padding-top: 30px;
+        
+        & .main-btn{
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,468 @@
+
+
+
+/*===========================
+    2.HEADER css 
+===========================*/
+
+
+.header-area{}
+
+
+
+.header-top{
+    background-color: $theme-color;
+    
+    & .header-info{
+        & ul{
+            & li{
+                font-size: 16px;
+                color: $white;
+                display: inline-block;
+                
+                @media #{$md}{
+                    font-size: 13px;
+                }
+                
+                &+li{
+                    margin-left: 45px;
+                    
+                    @media #{$lg}{
+                        margin-left: 20px;
+                    }
+                    @media #{$md}{
+                        margin-left: 15px;
+                    }
+                }
+                
+                & i{
+                    margin-right: 5px;
+                    font-size: 16px;
+                    
+                    &.fa-mobile{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .header-social{
+        & ul{
+            & li{
+                display: inline-block;
+                
+                &+li{
+                    margin-left: 20px;
+                    
+                    @media #{$lg}{
+                        margin-left: 10px;
+                    }
+                    
+                    @media #{$md}{
+                        margin-left: 5px;
+                    }
+                    @media #{$xs}{
+                        margin-left: 8px;
+                    }
+                    
+                    @media #{$sm}{
+                        margin-left: 20px;
+                    }
+                    
+                }
+                & a{
+                    font-size: 14px;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    border: 1px solid $white;
+                    border-radius: 50%;
+                    text-align: center;
+                    color: $white;
+                    @include transition(0.3s);
+                    
+                    @media #{$md}{
+                        font-size: 13px;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                    }
+                    
+                    @media #{$xs}{
+                        width: 25px;
+                        height: 25px;
+                        line-height: 25px;
+                        font-size: 12px;
+                    }
+                    @media #{$sm}{
+                        font-size: 14px;
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                    }
+                    
+                    &:hover{
+                        background-color: $white;
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.navigation{
+    padding: 25px 0;
+    
+    & .navbar{
+        padding: 0;
+        position: relative;
+        background-color: $white;
+        
+        & .navbar-brand{
+            padding: 0;
+            
+            & img{
+                background-color: $white;
+                position: relative;
+                z-index: 10;
+                
+                @media #{$lg}{
+                    width: 140px;
+                }
+                @media #{$md}{
+                    width: 150px;
+                }
+                @media #{$xs}{
+                    width: 120px;
+                }
+            }
+        }
+        
+        & .navbar-toggler{
+            padding: 0;
+            
+            & .toggler-icon{
+                width: 30px;
+                height: 2px;
+                display: block;
+                margin: 5px 0;
+                background-color: $heading-color;
+            }
+        }
+        
+        & .navbar-collapse{
+            @media #{$md}{
+                position: absolute;
+                top: 160%;
+                left: 0;
+                width: 100%;
+                background-color: $white;
+                z-index: 9;
+                padding: 8px 15px;
+                @include box-shadow (0px 8px 16px 0px rgba(4, 154, 229, 0.1));
+            }
+            @media #{$xs}{
+                position: absolute;
+                top: 175%;
+                left: 0;
+                width: 100%;
+                background-color: $white;
+                z-index: 9;
+                padding: 8px 15px;
+                @include box-shadow (0px 8px 16px 0px rgba(4, 154, 229, 0.1));
+            }
+        }
+        
+        & .navbar-nav{
+            & .nav-item{
+                position: relative;
+                
+                & a{
+                    font-size: 16px;
+                    color: $body-color-2;
+                    text-transform: uppercase;
+                    @include transition(0.3s);
+                    position: relative;
+                    padding: 15px 18px;
+                    font-weight: 700;
+                    
+                    @media #{$lg}{
+                        padding: 15px 12px;
+                    }
+                    
+                    @media #{$md}{
+                        display: block;
+                        padding: 5px 0;
+                    }
+                    @media #{$xs}{
+                        display: block;
+                        padding: 5px 0;
+                    }
+                    
+                    &.active{
+                        color: $theme-color;
+                    }
+                }
+                
+                & .sub-menu{
+                    min-width: 230px;
+                    border-top: 2px solid $theme-color;
+                    position: absolute;
+                    top: 110%;
+                    left: 0;
+                    background-color: $white;
+                    @include box-shadow(0 3px 5px rgba(0, 0, 0, 0.15));
+                    padding: 7px 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    @include transition(0.3s);
+                    z-index: 9;
+                    
+                    
+                    @media #{$md}{
+                        position: relative !important;
+                        width: 100% !important;
+                        left: 0 !important;
+                        top: auto !important;
+                        opacity: 1 !important;
+                        visibility: visible !important;
+                        display: none;
+                        right: auto;
+                        @include transform(translateX(0%));
+                        @include transition(none);
+                        @include box-shadow(none);
+                        text-align: left;
+                        border-top: 0;
+                    }
+                    @media #{$xs}{
+                        position: relative !important;
+                        width: 100% !important;
+                        left: 0 !important;
+                        top: auto !important;
+                        opacity: 1 !important;
+                        visibility: visible !important;
+                        display: none;
+                        right: auto;
+                        @include transform(translateX(0%));
+                        @include transition(none);
+                        @include box-shadow(none);
+                        text-align: left;
+                        border-top: 0;
+                    }
+                        
+                    & li{
+                        & a{
+                            padding: 8px 20px;
+                            display: block;
+                            text-transform: capitalize;
+                            font-weight: 400;
+                            
+                            @media #{$md}{
+                                border-bottom: 1px solid rgba(4, 154, 229, 0.2);
+                            }
+                            @media #{$xs}{
+                                border-bottom: 1px solid rgba(4, 154, 229, 0.2);
+                            }
+                            
+                            &.active,
+                            &:hover{
+                                padding-left: 25px;
+                                color: $theme-color;
+                            }
+                        }
+                    }
+                }
+                
+                &:hover{
+                    & > a{
+                        @include transition(0.3s);
+                        color: $theme-color;
+                    }
+                    
+                    & .sub-menu{
+                        opacity: 1;
+                        visibility: visible;
+                        top: 100%;
+                    }
+                }
+                
+                
+            }
+        }
+        
+        & .navbar-btn{
+            margin-left: 45px;
+            
+            @media #{$lg}{
+                margin-left: 35px;
+            }
+            @media #{$md}{
+                position: absolute;
+                top: -5px;
+                right: 55px;
+            }
+            @media #{$xs}{
+                position: absolute;
+                top: -5px;
+                right: 55px;
+            }
+            
+            & .main-btn{
+                @media #{$sm}{
+                    padding: 0 20px;
+                    font-size: 14px;
+                    height: 45px;
+                    line-height: 41px;
+                }
+            }
+        }
+    }
+    
+    &.sticky{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: $white;
+        @include box-shadow (0px 8px 16px 0px rgba(4, 154, 229, 0.1));        
+        @include animation(sticky 0.5s);
+        
+        & .navbar{
+            & .navbar-brand{
+                margin-top: 0;
+                
+                & img{
+                    background-color: transparent;
+                    @include box-shadow(none);
+                }
+            }
+            
+            & .navbar-collapse{
+                @media #{$md}{
+                    top: 150%;
+                }
+                @media #{$xs}{
+                    top: 170%;
+                }
+            }
+            
+            & .navbar-btn{
+                @media #{$md}{
+                    position: absolute;
+                    top: -5px;
+                    right: 55px;
+                }
+                @media #{$xs}{
+                    position: absolute;
+                    top: -5px;
+                    right: 55px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@keyframes sticky {
+    0%{
+        @include transform(translateY(-100%));
+    }
+    100%{
+        @include transform(translateY(0%));
+    }
+}
+
+@-webkit-keyframes sticky {
+    0%{
+        @include transform(translateY(-100%));
+    }
+    100%{
+        @include transform(translateY(0%));
+    }
+}
+
+@-o-keyframes sticky {
+    0%{
+        @include transform(translateY(-100%));
+    }
+    100%{
+        @include transform(translateY(0%));
+    }
+}
+
+@-moz-keyframes sticky {
+    0%{
+        @include transform(translateY(-100%));
+    }
+    100%{
+        @include transform(translateY(0%));
+    }
+}
+
+@-ms-keyframes sticky {
+    0%{
+        @include transform(translateY(-100%));
+    }
+    100%{
+        @include transform(translateY(0%));
+    }
+}
+
+
+.navigation-two{
+    & .navbar-btn{
+        & .main-btn{
+            border-radius: 50px;
+            @include box-shadow (0px 6px 20px 0px rgba(4, 154, 229, 0.65));
+            
+            &::before{
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+.sub-nav-toggler{
+    display: none;
+    
+    @media #{$md}{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 3px 8px;
+        font-size: 16px;
+        color: $heading-color;
+        background: none;
+        border: 0;
+    }
+    @media #{$xs}{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 3px 8px;
+        font-size: 16px;
+        color: $heading-color;
+        background: none;
+        border: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
