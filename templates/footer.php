@@ -14,7 +14,7 @@
                                 <li>
                                     <div class="single-f-contact d-flex align-items-center">
                                         <div class="contact-icon">
-                                            <i class="lni-phone"></i>
+                                            <i class="la la-phone"></i>
                                         </div>
                                         <div class="contact-content media-body">
                                             <p>+917-966-9200</p>
@@ -25,7 +25,7 @@
                                 <li>
                                     <div class="single-f-contact d-flex align-items-center">
                                         <div class="contact-icon">
-                                            <i class="lni-envelope"></i>
+                                            <i class="la la-envelope"></i>
                                         </div>
                                         <div class="contact-content media-body">
                                             <p>info@lubaservices.com</p>
@@ -36,7 +36,7 @@
                                 <li>
                                     <div class="single-f-contact d-flex align-items-center">
                                         <div class="contact-icon">
-                                            <i class="lni-map"></i>
+                                            <i class="la la-map"></i>
                                         </div>
                                         <div class="contact-content media-body">
                                             <p>2518 Ocean Ave., Cellar Floor,<br>Brooklyn New York, 11229</p>

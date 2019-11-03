@@ -347,7 +347,7 @@
                             </div> <!-- single work time -->
                             <div class="single-work-time d-sm-flex justify-content-between">
                                 <p>Sunday <span class="closed">CLOSED</span></p>
-                                <p class="number"><i class="lni-phone-handset"></i> +917-966-9200</p>
+                                <p class="number"><i class="la la-phone-handset"></i> +917-966-9200</p>
                             </div> <!-- single work time -->
                             <div class="single-work-time">
                                 <a class="main-btn" href="#">time table</a>
@@ -454,7 +454,7 @@
                     <div class="testimonial-two-active">
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Patient</h5>
                                 <span>- Random Customer</span>
@@ -465,7 +465,7 @@
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Bobby Akter</h5>
                                 <span>- Random Customer</span>
@@ -476,7 +476,7 @@
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Humayun Ahmed</h5>
                                 <span>- Random Customer</span>

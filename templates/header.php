@@ -93,9 +93,9 @@
                         <div class="header-top-content d-md-flex justify-content-between align-items-center">
                             <div class="header-info pt-10 d-none d-md-block">
                                 <ul>
-                                    <li><i class="lni-envelope"></i> info@lubaservices.com</li>
-                                    <li><i class="lni-mobile"></i> +917-966-9200</li>
-                                    <li><i class="lni-alarm-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li>
+                                    <li><i class="la la-envelope"></i> info@lubaservices.com</li>
+                                    <li><i class="la la-mobile"></i> +917-966-9200</li>
+                                    <li><i class="la la-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li>
                                 </ul>
                             </div> <!-- header info -->
 
@@ -157,7 +157,7 @@
                             </div> <!-- navbar-collapse -->
 
                             <div class="navbar-phone-mobile d-lg-none">
-                               <i class="lni-phone"></i> +917-966-9200
+                               <i class="la la-phone"></i> +917-966-9200
                             </div>
                             <div class="navbar-btn d-none d-sm-block">
                                 <a class="main-btn" href="appointment.html">Appointment</a>

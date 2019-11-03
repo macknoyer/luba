@@ -34,35 +34,35 @@
                                     <div class="single-contact-form form-group">
                                         <input type="text" name="name" placeholder="Name" data-error="Name is required." required="required">
                                         <div class="help-block with-errors"></div>
-                                        <i class="lni-user"></i>
+                                        <i class="la la-user"></i>
                                     </div> <!-- single-contact-form -->
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-contact-form form-group">
                                         <input type="email" name="email" placeholder="Email" data-error="Valid email is required." required="required">
                                         <div class="help-block with-errors"></div>
-                                        <i class="lni-envelope"></i>
+                                        <i class="la la-envelope"></i>
                                     </div> <!-- single-contact-form -->
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-contact-form form-group">
                                         <input type="text" name="subject" placeholder="Subject"  data-error="Subject is required." required="required">
                                         <div class="help-block with-errors"></div>
-                                        <i class="lni-pencil"></i>
+                                        <i class="la la-pencil"></i>
                                     </div> <!-- single-contact-form -->
                                 </div>
                                 <div class="col-md-6">
                                     <div class="single-contact-form form-group">
                                         <input type="text" name="phone" placeholder="Phone Number"  data-error="Phone is required." required="required">
                                         <div class="help-block with-errors"></div>
-                                        <i class="lni-phone-handset"></i>
+                                        <i class="la la-phone"></i>
                                     </div> <!-- single-contact-form -->
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single-contact-form form-group">
                                         <textarea name="message" placeholder="Your Comment" data-error="Please,leave us a message." required="required"></textarea>
                                         <div class="help-block with-errors"></div>
-                                        <i class="lni-pencil-alt"></i>
+                                        <i class="la la-pencil-alt"></i>
                                     </div> <!-- single-contact-form -->
                                 </div>
                                 <p class="form-message"></p>
@@ -82,7 +82,7 @@
                             <li>
                                 <div class="single-info">
                                     <div class="info-icon">
-                                        <i class="lni-money-location"></i>
+                                        <i class="la la-map-marker"></i>
                                     </div>
                                     <div class="info-content">
                                         <p class="text">2518 Ocean Ave., Cellar Floor,<br>Brooklyn New York, 11229</p>
@@ -92,7 +92,7 @@
                             <li>
                                 <div class="single-info">
                                     <div class="info-icon">
-                                        <i class="lni-phone"></i>
+                                        <i class="la la-phone"></i>
                                     </div>
                                     <div class="info-content">
                                         <p class="text">+917-966-9200</p>
@@ -103,7 +103,7 @@
                             <li>
                                 <div class="single-info">
                                     <div class="info-icon">
-                                        <i class="lni-envelope"></i>
+                                        <i class="la la-envelope"></i>
                                     </div>
                                     <div class="info-content">
                                         <p class="text">contact@lubaservices.com</p>
@@ -209,7 +209,7 @@
                     <div class="testimonial-two-active">
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Patient</h5>
                                 <span>- Random Customer</span>
@@ -220,7 +220,7 @@
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Bobby Akter</h5>
                                 <span>- Random Customer</span>
@@ -231,7 +231,7 @@
                         </div> <!-- single testimonial -->
                         <div class="single-testimonial-two mt-60">
                             <div class="testimonial-content">
-                                <i class="lni-quotation"></i>
+                                <i class="la la-quotation"></i>
                                 <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
                                 <h5 class="testimonial-name">Humayun Ahmed</h5>
                                 <span>- Random Customer</span>
