@@ -122,7 +122,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#675026', end
 .single-features .features-content .features-title,
 .page-content .page-title,
 .single-about-features .features-content .features-title,
-.faq-call .faq-content .faq-title,
+/*.faq-call .faq-content .faq-title,*/
 .single-department-two .department-content .department-title a,
 .single-team .team-content .team-name a,
 .info-title
@@ -389,6 +389,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0b5', end
 	    -ms-align-items: center;
 	    align-items: center;
 }
+.border_corners.one_line {
+	height: auto;
+}
 .border_corners:before  {
 	content: "";
 	width: 40px;
@@ -408,6 +411,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0b5', end
 	bottom: 0;
 	border-right: 5px solid rgba(227, 167, 3, 0.2);
 	border-bottom: 5px solid rgba(227, 167, 3, 0.2);
+}
+.faq-call .faq-content {
+	/*position: relative;*/
+	/*top: auto;*/
+	transform: none;
+	top: 20%;
+}
+.faq-title {
+	color: #fff;
+
+}
+.faq-call {
+	margin-left: 0;
+	height: 100%;
+}
+.faq-call .faq-call-image {
+    height: 100%;
+}
+.faq-call .faq-call-image::before {
+	display: none;
+}
+.faq-call .faq-call-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.list_stars li{
+	list-style: none;
+}
+.list_stars li:before{
+	content: '&#xf621;';
+	font-size: 14px;
+	color: #17a0b5;
 }
 /******************media********************/
 
