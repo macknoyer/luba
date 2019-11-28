@@ -239,7 +239,7 @@ p {
     font-size: 16px;
     border-radius: 50%;
     color: #333;
-    border: 2px solid rgba(145, 241, 248, 0.3);
+    border: 2px solid rgba(23, 160, 181, 0.4);
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -651,9 +651,9 @@ p {
         background-color: #fff;
         z-index: 9;
         padding: 8px 15px;
-        -webkit-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-        -moz-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-        box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3); } }
+        -webkit-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+        -moz-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+        box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4); } }
     @media (max-width: 767px) {
       .navigation .navbar .navbar-collapse {
         position: absolute;
@@ -663,9 +663,9 @@ p {
         background-color: #fff;
         z-index: 9;
         padding: 8px 15px;
-        -webkit-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-        -moz-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-        box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3); } }
+        -webkit-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+        -moz-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+        box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4); } }
     .navigation .navbar .navbar-nav .nav-item {
       position: relative; }
       .navigation .navbar .navbar-nav .nav-item a {
@@ -1293,7 +1293,7 @@ p {
     padding-bottom: 30px; } }
 
 .single-features {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   padding: 55px 15px 47px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1783,7 +1783,7 @@ p {
   .single-department-two .department-thumb a img {
     width: 100%; }
 .single-department-two .department-content {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   border-top: 0;
   padding: 35px 25px;
   background-color: #fff;
@@ -2055,7 +2055,7 @@ p {
     padding-bottom: 80px; } }
 
 .single-team {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   padding: 55px 45px;
   background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2270,7 +2270,7 @@ p {
 .single-doctors .doctors-image img {
   width: 100%; }
 .single-doctors .doctors-content {
-  border: 2px solid rgba(145, 241, 248, 0.3);
+  border: 2px solid rgba(23, 160, 181, 0.4);
   border-top: 0;
   padding-bottom: 40px;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2559,7 +2559,7 @@ p {
     background-color: #17a0b5; }
 
 .single-testimonial-two {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   padding: 40px;
   position: relative;
   margin-right: 210px;
@@ -2669,7 +2669,7 @@ p {
       transition: all 0.3s ease-out 0s; }
 .single-blog .blog-content {
   padding: 25px 20px;
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   border-top: 0;
   background-color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2793,7 +2793,7 @@ p {
   z-index: 5; }
 
 .call-action {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   padding: 0 30px 30px;
   background-color: #fff; }
   @media (max-width: 767px) {
@@ -3597,7 +3597,7 @@ p {
     padding-bottom: 80px; } }
 
 .single-department {
-  border: 5px solid rgba(145, 241, 248, 0.3);
+  border: 5px solid rgba(23, 160, 181, 0.4);
   padding: 33px 20px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -4950,9 +4950,9 @@ p {
   margin-bottom: 0;
   border: 2px solid rgba(4, 154, 229, 0.2);
   border-radius: 0;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-  -moz-box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3);
-  box-shadow: 0px 8px 16px 0px rgba(145, 241, 248, 0.3); }
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+  -moz-box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4);
+  box-shadow: 0px 8px 16px 0px rgba(23, 160, 181, 0.4); }
   .faq-content .faq-collapse .accordion .card .card-header {
     padding: 25px 30px;
     background: none;

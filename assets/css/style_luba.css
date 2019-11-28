@@ -13,6 +13,9 @@ p {
 p:last-child {
 	margin-bottom: 0;
 }
+.header-info a {
+	color: #fff;
+}
 [data-overlay]::before {background: none;}
 .navigation {
 	    padding: 10px 0;
@@ -28,11 +31,30 @@ p:last-child {
 .navigation .navbar .navbar-nav .nav-item a.active,.navigation .navbar .navbar-nav .nav-item a:hover {
 	color: #133557;
 }
-
+.navigation .navbar .navbar-nav .nav-item .sub-menu li a {
+	font-weight: 300;
+	font-family: "Fira Sans", sans-serif;
+}
+.navigation .navbar .navbar-nav .nav-item .sub-menu a::after {
+	display: none !important;
+}
+.navigation .navbar .navbar-nav .nav-item .sub-menu li a.active, 
+.navigation .navbar .navbar-nav .nav-item .sub-menu li a:hover {
+	padding-left: 20px !important;
+}
+.pagination .page-item a {
+	line-height: 48px;
+}
+.single-blog-post .blog-post-thumb {
+	height: 450px;
+}
+.single-blog-post .post-thumb-active a::before {
+	display: none;
+}
 .navigation .navbar .navbar-nav .nav-item a.active:after,.navigation .navbar .navbar-nav .nav-item a:hover:after {
 	content:'';
-	height: 4px;
-	bottom: 2px;
+	height: 2px;
+	bottom: 4px;
 	width: calc(100% - 36px);
 	position: absolute;
 	display: block;	
@@ -437,13 +459,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0b5', end
     object-fit: cover;
     height: 100%;
 }
+.list_stars{
+	margin-bottom: 1rem;
+	padding-left: 15px;
+}
 .list_stars li{
 	list-style: none;
+	display: block;
+	margin-bottom: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
-.list_stars li:before{
-	content: '&#xf621;';
-	font-size: 14px;
+.list_stars li:before{    
+	font-family: 'Line Awesome Free';
+	display: block;
+	flex: 0 0 auto;
+	margin-right: 10px;
+    font-weight: 900;
+	content: "\f621";
+	font-size: 18px;
 	color: #17a0b5;
+}
+.big_icon {
+	font-size: 72px;
+	/*margin-bottom: 10px;*/
+	color: #17a0b5;
+}
+.fz18 {
+	font-size: 18px;
 }
 /******************media********************/
 
@@ -464,6 +510,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0b5', end
 	}
 }
 @media (max-width: 767px) {
+	.pb-130 {
+    	padding-bottom: 60px;
+	}
+	.pt-125 {
+	    padding-top: 60px;
+	}
 	.mb-md-40 {
 		margin-bottom: 40px;
 	}

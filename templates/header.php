@@ -93,8 +93,8 @@
                         <div class="header-top-content d-md-flex justify-content-between align-items-center">
                             <div class="header-info pt-10 d-none d-md-block">
                                 <ul>
-                                    <li><i class="la la-envelope"></i> info@lubaservices.com</li>
-                                    <li><i class="la la-mobile"></i> +917-966-9200</li>
+                                    <li><i class="la la-envelope"></i> <a href="mailto:info@lubaservices.com">info@lubaservices.com</a></li>
+                                    <li><i class="la la-mobile"></i> <a href="tel:+917-966-9200">+917-966-9200</a></li>
                                     <li><i class="la la-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li>
                                 </ul>
                             </div> <!-- header info -->
@@ -116,7 +116,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php">
                                 <img src="assets/images/logo.svg" alt="Logo">
                             </a> <!-- Logo -->
 
@@ -129,38 +129,37 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item ">
-                                        <a class="active" href="index.html">Home</a>
+                                        <a class="active" href="index.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="about.html">About us</a>
+                                        <a href="about.php">About us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="department.html">Services</a>
+                                        <a href="services.php">Services</a>
                                         
                                         <ul class="sub-menu">
-                                            <li><a href="department.html">Department</a></li>
-                                            <li><a href="department-details.html">Department Details</a></li>
+                                            <li><a href="services_health_care.php">Home Health Care Aide</a></li>
+                                            <li><a href="services_housekeeping.php">Housekeeping Service</a></li>
+                                            <li><a href="services_medical_work.php">Medical Social Services</a></li>
+                                            <li><a href="services_nursing.php">Nursing</a></li>
+                                            <li><a href="services_physical_therapy.php">Physical Therapy</a></li>
+                                            <li><a href="services_speech_therapy.php">Speech Therapy</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="blog.html">Blog</a>
-                                        
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
+                                        <a href="blog.php">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                 </ul> <!-- navbar-nav -->
                             </div> <!-- navbar-collapse -->
 
                             <div class="navbar-phone-mobile d-lg-none">
-                               <i class="la la-phone"></i> +917-966-9200
+                               <i class="la la-phone"></i> <a href="tel:+917-966-9200">+917-966-9200</a>
                             </div>
                             <div class="navbar-btn d-none d-sm-block">
-                                <a class="main-btn" href="appointment.html">Appointment</a>
+                                <a class="main-btn" href="appointment.php">Appointment</a>
                             </div>
                         </nav> <!-- navbar -->
                     </div>
