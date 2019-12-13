@@ -99,8 +99,11 @@
                                 </ul>
                             </div> <!-- header info -->
 
-                            <div class="text-center text-md-right pt-10">
-                               <a class="main-btn main-btn-white" href="appointment.php">Appointment</a>
+                            <div class="header-social text-center text-md-right pt-10">
+                                <ul>
+                                    <li><a href="#"><i class="la la-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="la la-twitter"></i></a></li>
+                                </ul>
                             </div> <!-- header social -->
                         </div>
                     </div>
@@ -125,45 +128,27 @@
 
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
-                                   <!--  <li class="nav-item ">
-                                        <a href="index.php">Home</a>
-                                    </li> -->
-                                    <li class="nav-item">
-                                        <a class="active" href="about.php">About us</a>
+                                    <li class="nav-item ">
+                                        <a class="active" href="index.php">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="services.php">All Services</a>
+                                        <a href="about.php">About us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="services.php">Services</a>
                                         
-                                       <!--  <ul class="sub-menu">
+                                        <ul class="sub-menu">
                                             <li><a href="services_health_care.php">Home Health Care Aide</a></li>
                                             <li><a href="services_housekeeping.php">Housekeeping Service</a></li>
                                             <li><a href="services_medical_work.php">Medical Social Services</a></li>
                                             <li><a href="services_nursing.php">Nursing</a></li>
                                             <li><a href="services_physical_therapy.php">Physical Therapy</a></li>
                                             <li><a href="services_speech_therapy.php">Speech Therapy</a></li>
-                                        </ul> -->
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="services_health_care.php">Home Health Care</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_housekeeping.php">Housekeeping</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_medical_work.php">Medical Social</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_nursing.php">Nursing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_physical_therapy.php">Physical Therapy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_speech_therapy.php">Speech Therapy</a>
-                                    </li>
-                                  <!--   <li class="nav-item">
                                         <a href="blog.php">Blog</a>
-                                    </li> -->
+                                    </li>
                                     <li class="nav-item">
                                         <a href="contact.php">Contact</a>
                                     </li>
@@ -173,9 +158,9 @@
                             <div class="navbar-phone-mobile d-lg-none">
                                <i class="la la-phone"></i> <a href="tel:+917-966-9200">+917-966-9200</a>
                             </div>
-                           <!--  <div class="navbar-btn d-none d-sm-block">
+                            <div class="navbar-btn d-none d-sm-block">
                                 <a class="main-btn" href="appointment.php">Appointment</a>
-                            </div> -->
+                            </div>
                         </nav> <!-- navbar -->
                     </div>
                 </div> <!-- row -->

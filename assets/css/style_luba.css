@@ -260,6 +260,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17a0b5', end
 .main-btn.main-btn-2:hover {
 	border-color: transparent !important;
 }
+.main-btn.main-btn-white {
+	background: none;
+	border: 1px solid #fff !important;
+	color: #fff;
+}
+.main-btn.main-btn-white:hover {
+	background: none;
+}
 .navigation-two .navbar-btn .main-btn,.single-department-two .department-content .main-btn:hover {
 	-webkit-box-shadow: -1px 4px 8px 0px #a1b6b9;
 	-moz-box-shadow: -1px 4px 8px 0px #a1b6b9;
