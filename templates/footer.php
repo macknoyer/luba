@@ -1,4 +1,26 @@
 
+    <!--====== CALL TO ACTION PART START ======-->
+
+    <section class="call-action-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="call-action d-lg-flex justify-content-between align-items-center">
+                        <div class="action-content">
+                            <h3 class="action-title">Don’t hasitate to contact us!</h3>
+                            <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
+                        </div> <!-- action content -->
+                        <div class="action-btn">
+                            <a class="main-btn" href="#">get appointment</a>
+                        </div> <!-- action btn -->
+                    </div> <!-- call action -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CALL TO ACTION PART ENDS ======-->
+    
     <!--====== FOOTER PART START ======-->
 
     <footer class="footer-area">
@@ -89,7 +111,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-content text-center">
-                            <p class="text">Luba’s Home Care in NYC &copy; All Rights Reserved. 1989-2020. Created with love in Brooklyn by  <a href="https://graygrids.com" rel="nofollow">Lasting Trend</a> </p>
+                            <p class="text">Luba’s Home Care in NYC &copy; All Rights Reserved. 2018-*current year. Created with love in Brooklyn by  <a href="https://graygrids.com" rel="nofollow">Lasting Trend</a> </p>
                         </div>
                     </div>
                 </div> <!-- row -->

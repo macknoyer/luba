@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Home Health Aide + Personal Care</h3>
                     </div>
                     <div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="section-title pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">What Are the Responsibilities of a Home Health Aide Agency in New York?</h3>
                     </div>
                     <div>   
@@ -145,7 +145,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Why Should You Choose Our Home Health Care Services in New York?</h3>
                     </div>
                     <div class="border_corners one_line">
@@ -155,82 +155,17 @@
             </div> <!-- row -->
         </div> <!-- container -->
     </section>
+ 
     <!--====== TESTIMONIAL PART START ======-->
 
-    <section class="testimonial-two-area pt-125 pb-130">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="section-title">
-                        <h5 class="sub-title">Testimonials</h5>
-                        <h3 class="title">Service Recipient Says</h3>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="testimonial-two-active">
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Patient</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial2.jpg" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Bobby Akter</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial.png" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Humayun Ahmed</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial2.png" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                    </div> <!-- testimonial active -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+<?php include('templates/testimonial.php');?>
 
     <!--====== TESTIMONIAL PART ENDS ======-->
+    
+    <!--====== DOCTOR PART START ======-->
 
-    <!--====== CALL TO ACTION PART START ======-->
+<?php include('templates/team.php');?>
 
-    <section class="call-action-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="call-action d-lg-flex justify-content-between align-items-center">
-                        <div class="action-content">
-                            <h3 class="action-title">Don’t hasitate to contact us!</h3>
-                            <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
-                        </div> <!-- action content -->
-                        <div class="action-btn">
-                            <a class="main-btn" href="#">get appointment</a>
-                        </div> <!-- action btn -->
-                    </div> <!-- call action -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CALL TO ACTION PART ENDS ======-->
+    <!--====== DOCTOR PART ENDS ======-->
 
 <?php include('templates/footer.php');?>

@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Why Choose Luba’s Home Care?</h3>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                 <div class="col-lg-6">
                     <div class="about-content mt-40">
                         <div class="section-title">
-                            <h5 class="sub-title">Department</h5>
+                            <h5 class="sub-title">Luba’s Home Care</h5>
                             <h3 class="title">Short Story About Luba’s Home Care.</h3>
                         </div> <!-- section title -->
                         <p class="text">Luba’s New York home health care, one of the best home health care agencies in NYC, serves all clients of all ages, from all walks of life. Our goal is to improve your everyday life and fill it with ease and comfort. Wherever you are, you can rely on our New York home care agency. Our private home care agency in NYC serves all five boroughs – Manhattan, Brooklyn, Queens, Staten Island, and The Bronx – so that no one will be left behind. </p>
@@ -189,7 +189,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">How Do You Choose A Provider of Home Health Care Aides in NYC?</h3>
                     </div>
                 </div>
@@ -211,7 +211,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">What Services Does Our Home Care Agency in NYC Provide?</h3>
                     </div> <!-- section title -->
                 </div>
@@ -288,7 +288,7 @@
     <section class="appointment-working pt-80 pb-130">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <div class="appointment-area mt-45">
                         <div class="section-title section-title-two">
                             <h5 class="sub-title">Make an</h5>
@@ -300,19 +300,19 @@
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
                                             <input type="text" placeholder="Full Name">
-                                        </div> <!-- single-appointment-form -->
+                                        </div> 
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
                                             <input type="text" placeholder="Your Phone">
-                                        </div> <!-- single-appointment-form -->
+                                        </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!-- <div class="col-md-6">
                                         <div class="single-appointment-form">
                                             <input id="datepicker" type="text" placeholder="MM/DD/YY">
-                                        </div> <!-- single-appointment-form -->
-                                    </div>
-                                    <div class="col-md-6">
+                                        </div> 
+                                    </div> -->
+                                    <!-- <div class="col-md-6">
                                         <div class="single-appointment-form">
                                             <select>
                                                 <option value="0">Department</option>
@@ -322,39 +322,44 @@
                                                 <option value="4">Brain Surgery</option>
                                                 <option value="5">Allergic Issue</option>
                                             </select>
-                                        </div> <!-- single-appointment-form -->
+                                        </div> 
+                                    </div> -->
+                                    <div class="col-md-12">
+                                        <div class="single-appointment-form">
+                                            <textarea name="message" placeholder="Your Comment" data-error="Please,leave us a message." required="required"></textarea>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="single-appointment-form">
                                             <button class="main-btn main-btn-2">Submit Now</button>
-                                        </div> <!-- single-appointment-form -->
+                                        </div>
                                     </div>
-                                </div> <!-- row -->
+                                </div> 
                             </form>
-                        </div> <!-- appointment form -->
+                        </div>
                     </div> <!-- appointment area -->
                 </div>
-                <div class="col-lg-6">
+               <!--  <div class="col-lg-6">
                     <div class="working-area mt-45">
                         <div class="section-title section-title-two">
                             <h5 class="sub-title">DISCOVER</h5>
                             <h3 class="title">Working Time</h3>
-                        </div> <!-- section title -->
+                        </div>
                         <div class="working-content mt-20">
                             <div class="single-work-time d-sm-flex justify-content-between">
                                 <p>Monday – Friday <span class="time">8.00 – 17.00</span></p>
                                 <p>Saturday 9.30 – 17.30</p>
-                            </div> <!-- single work time -->
+                            </div> 
                             <div class="single-work-time d-sm-flex justify-content-between">
                                 <p>Sunday <span class="closed">CLOSED</span></p>
                                 <p class="number"><i class="la la-phone-handset"></i> +917-966-9200</p>
-                            </div> <!-- single work time -->
+                            </div> 
                             <div class="single-work-time">
                                 <a class="main-btn" href="#">time table</a>
-                            </div> <!-- single work time -->
+                            </div> 
                         </div>
-                    </div> <!-- working area -->
-                </div>
+                    </div> 
+                </div> -->
             </div> <!-- row -->
         </div> <!-- container -->
 
@@ -365,144 +370,26 @@
     
     <!--====== DOCTOR PART START ======-->
 
-    <section class="doctors-two-are pt-125 pb-100">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Expert Team</h5>
-                        <h3 class="title">Meet Our Team</h3>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row justify-content-center">
-                <div class="col-xl-12 col-lg-11 col-md-11 col-sm-10">
-                    <div class="row team-active">
-                        <div class="col-lg-4">
-                            <div class="single-team text-center mt-30 mb-30">
-                                <div class="team-image">
-                                    <img src="assets/images/team/t-7.jpg" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h5 class="team-name"><a href="doctors-details.html">Employee Name</a></h5>
-                                    <span>Founder</span>
-                                    <ul class="social">
-                                        <li><a href="#"><i class="la la-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="la la-twitter"></i></a></li>
-                                        <li><a href="#"><i class="la la-instagram"></i></a></li>
-                                        <li><a href="#"><i class="la la-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- single team -->
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="single-team text-center mt-30 mb-30">
-                                <div class="team-image">
-                                    <img src="assets/images/team/t-8.jpg" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h5 class="team-name"><a href="doctors-details.html">Employee Name</a></h5>
-                                    <span>Nurse</span>
-                                    <ul class="social">
-                                        <li><a href="#"><i class="la la-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="la la-twitter"></i></a></li>
-                                        <li><a href="#"><i class="la la-instagram"></i></a></li>
-                                        <li><a href="#"><i class="la la-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- single team -->
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="single-team text-center mt-30 mb-30">
-                                <div class="team-image">
-                                    <img src="assets/images/team/t-9.jpg" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h5 class="team-name"><a href="doctors-details.html">Employee Name</a></h5>
-                                    <span>Neurologist</span>
-                                    <ul class="social">
-                                        <li><a href="#"><i class="la la-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="la la-twitter"></i></a></li>
-                                        <li><a href="#"><i class="la la-instagram"></i></a></li>
-                                        <li><a href="#"><i class="la la-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- single team -->
-                        </div>
-                    </div> <!-- row -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+<?php include('templates/team.php');?>
 
     <!--====== DOCTOR PART ENDS ======-->
     
     <!--====== TESTIMONIAL PART START ======-->
 
-    <section class="testimonial-two-area pt-125 pb-130 gray-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="section-title">
-                        <h5 class="sub-title">Testimonials</h5>
-                        <h3 class="title">Service Recipient Says</h3>
-                    </div> <!-- section title -->
-                </div>
-            </div> <!-- row -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="testimonial-two-active">
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Patient</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial2.jpg" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Bobby Akter</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial.png" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                        <div class="single-testimonial-two mt-60">
-                            <div class="testimonial-content">
-                                <i class="la la-quotation"></i>
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis turpis vitae tortor convallis eleifend. In volutpat maximus mauris non fringilla. Cras pulvinar aliquam massa nec lacinia.</p>
-                                <h5 class="testimonial-name">Humayun Ahmed</h5>
-                                <span>- Random Customer</span>
-                            </div> <!-- testimonial content -->
-                            <div class="testimonial-image">
-                                <img src="assets/images/testimonial2.png" alt="testimonial">
-                            </div>
-                        </div> <!-- single testimonial -->
-                    </div> <!-- testimonial active -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+<?php include('templates/testimonial.php');?>
 
     <!--====== TESTIMONIAL PART ENDS ======-->
     
     <!--====== BLOG PART START ======-->
 
-    <section class="blog-tow-area pt-80 pb-100">
+   <!--  <section class="blog-tow-area pt-80 pb-100">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4">
                     <div class="section-title mt-45 mb-30">
                         <h5 class="sub-title">blog Post</h5>
                         <h3 class="title">Recent Blog Posts</h3>
-                    </div> <!-- section title -->
+                    </div> 
                 </div>
                 <div class="col-lg-8">
                     <div class="row blog-tow-active pt-20">
@@ -516,7 +403,7 @@
                                     <h3 class="title"><a href="#">Various versions have evolve over the years</a></h3>
                                     <a class="more" href="#">Read More <i class="la la-angle-right"></i></a>
                                 </div>
-                            </div> <!-- single blog -->
+                            </div> 
                         </div>
                         <div class="col-lg-6">
                             <div class="single-blog mt-30 mb-30">
@@ -528,7 +415,7 @@
                                     <h3 class="title"><a href="#">Various versions have evolve over the years</a></h3>
                                     <a class="more" href="#">Read More <i class="la la-angle-right"></i></a>
                                 </div>
-                            </div> <!-- single blog -->
+                            </div> 
                         </div>
                         <div class="col-lg-6">
                             <div class="single-blog mt-30 mb-30">
@@ -540,36 +427,13 @@
                                     <h3 class="title"><a href="#">Various versions have evolve over the years</a></h3>
                                     <a class="more" href="#">Read More <i class="la la-angle-right"></i></a>
                                 </div>
-                            </div> <!-- single blog -->
+                            </div> 
                         </div>
-                    </div> <!-- blog-tow-active -->
+                    </div> 
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+            </div> 
+        </div> 
+    </section> -->
 
     <!--====== BLOG PART ENDS ======-->
-    
-    <!--====== CALL TO ACTION PART START ======-->
-
-    <section class="call-action-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="call-action d-lg-flex justify-content-between align-items-center">
-                        <div class="action-content">
-                            <h3 class="action-title">Don’t hasitate to contact us!</h3>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed elementum risus, quis laoreet ipsum. Nam dapibus, neque in volutpat.</p>
-                        </div> <!-- action content -->
-                        <div class="action-btn">
-                            <a class="main-btn" href="#">get appointment</a>
-                        </div> <!-- action btn -->
-                    </div> <!-- call action -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
-
-    <!--====== CALL TO ACTION PART ENDS ======-->
-
 <?php include('templates/footer.php');?>

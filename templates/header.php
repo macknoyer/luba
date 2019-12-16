@@ -90,17 +90,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="header-top-content d-md-flex justify-content-between align-items-center">
-                            <div class="header-info pt-10 d-none d-md-block">
-                                <ul>
+                        <div class="header-top-content d-flex justify-content-between align-items-center">
+                            <div class="header-info pt-10 d-flex">
+                                <ul class="d-none d-md-block">
                                     <li><i class="la la-envelope"></i> <a href="mailto:info@lubaservices.com">info@lubaservices.com</a></li>
                                     <li><i class="la la-mobile"></i> <a href="tel:+917-966-9200">+917-966-9200</a></li>
-                                    <li><i class="la la-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li>
+                                    <!-- <li><i class="la la-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li> -->
                                 </ul>
+                                <a class="text-white border-link" href="about.php">About us</a>
                             </div> <!-- header info -->
 
+                           <!--  <div class="text-center text-md-right pt-10">
+                            </div> -->
                             <div class="text-center text-md-right pt-10">
-                               <a class="main-btn main-btn-white" href="appointment.php">Appointment</a>
+                               <a class="main-btn main-btn-white" href="contact.php">Appointment</a>
                             </div> <!-- header social -->
                         </div>
                     </div>
@@ -128,11 +131,11 @@
                                    <!--  <li class="nav-item ">
                                         <a href="index.php">Home</a>
                                     </li> -->
-                                    <li class="nav-item">
+                                   <!--  <li class="nav-item">
                                         <a class="active" href="about.php">About us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="services.php">All Services</a>
+                                    </li> -->
+                                    <!-- <li class="nav-item"> -->
+                                        <!-- <a href="services.php">All Services</a> -->
                                         
                                        <!--  <ul class="sub-menu">
                                             <li><a href="services_health_care.php">Home Health Care Aide</a></li>
@@ -142,7 +145,7 @@
                                             <li><a href="services_physical_therapy.php">Physical Therapy</a></li>
                                             <li><a href="services_speech_therapy.php">Speech Therapy</a></li>
                                         </ul> -->
-                                    </li>
+                                    <!-- </li> -->
                                     <li class="nav-item">
                                         <a href="services_health_care.php">Home Health Care</a>
                                     </li>
@@ -164,9 +167,9 @@
                                   <!--   <li class="nav-item">
                                         <a href="blog.php">Blog</a>
                                     </li> -->
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a href="contact.php">Contact</a>
-                                    </li>
+                                    </li> -->
                                 </ul> <!-- navbar-nav -->
                             </div> <!-- navbar-collapse -->
 

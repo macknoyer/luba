@@ -14,9 +14,9 @@ $(function() {
     $(window).on('scroll', function(event) {    
         var scroll = $(window).scrollTop();
         if (scroll < 110) {
-            $(".navigation").removeClass("sticky");
+            $(".header-area").removeClass("sticky");
         } else{
-            $(".navigation").addClass("sticky");
+            $(".header-area").addClass("sticky");
         }
     });
     

@@ -28,7 +28,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Physical Therapy Near Your Home Is Possible!</h3>
                     </div>
                     <div class="border_corners one_line">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="section-title pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Luba`s Home Care and Physiotherapy Home Care Services</h3>
                     </div>
                     <div>   
@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title text-center pb-25">
-                        <h5 class="sub-title">Department</h5>
+                        <h5 class="sub-title">Luba’s Home Care</h5>
                         <h3 class="title">Benefits of Private Physical Therapy</h3>
                     </div>
                     <div>
@@ -161,26 +161,16 @@
         </div> <!-- container -->
     </section>
 
-    <!--====== CALL TO ACTION PART START ======-->
+    <!--====== TESTIMONIAL PART START ======-->
 
-    <section class="call-action-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="call-action d-lg-flex justify-content-between align-items-center">
-                        <div class="action-content">
-                            <h3 class="action-title">Don’t hasitate to contact us!</h3>
-                            <p class="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
-                        </div> <!-- action content -->
-                        <div class="action-btn">
-                            <a class="main-btn" href="#">get appointment</a>
-                        </div> <!-- action btn -->
-                    </div> <!-- call action -->
-                </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-    </section>
+<?php include('templates/testimonial.php');?>
 
-    <!--====== CALL TO ACTION PART ENDS ======-->
+    <!--====== TESTIMONIAL PART ENDS ======-->
+    
+    <!--====== DOCTOR PART START ======-->
+
+<?php include('templates/team.php');?>
+
+    <!--====== DOCTOR PART ENDS ======-->
 
 <?php include('templates/footer.php');?>
