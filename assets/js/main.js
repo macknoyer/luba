@@ -74,7 +74,7 @@ $(function() {
             autoplaySpeed: 8000,
             infinite: true,
             pauseOnHover: false,
-            dots: true,
+            dots: false,
             fade: true,
 			arrows: true,
             prevArrow:'<span class="prev"><i class="la la-angle-left"></i></span>',

@@ -136,7 +136,7 @@
                         <div class="faq-content">
                             <i class="flaticon-clock"></i>
                             <h3 class="faq-title">Emergency Call </h3>
-                            <h3 class="faq-title">+1 800-123-132 </h3>
+                            <h3 class="faq-title">917-966-9200</h3>
                             <a href="#" class="main-btn">Get Appointment  </a>
                         </div>
                     </div> <!-- faq call -->

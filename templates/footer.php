@@ -39,8 +39,8 @@
                                             <i class="la la-phone"></i>
                                         </div>
                                         <div class="contact-content media-body">
-                                            <p>+917-966-9200</p>
-                                            <p>+855-525-2020</p>
+                                            <p>917-966-9200</p>
+                                            <p><span>FAX</span> 917-966-9111</p>
                                         </div>
                                     </div> <!-- single-f-contact -->
                                 </li>
@@ -50,8 +50,7 @@
                                             <i class="la la-envelope"></i>
                                         </div>
                                         <div class="contact-content media-body">
-                                            <p>info@lubaservices.com</p>
-                                            <p>contact@lubaservices.com</p>
+                                            <p>info@lubahc.com</p>
                                         </div>
                                     </div> <!-- single-f-contact -->
                                 </li>

@@ -93,11 +93,12 @@
                         <div class="header-top-content d-flex justify-content-between align-items-center">
                             <div class="header-info pt-10 d-flex">
                                 <ul class="d-none d-md-block">
-                                    <li><i class="la la-envelope"></i> <a href="mailto:info@lubaservices.com">info@lubaservices.com</a></li>
-                                    <li><i class="la la-mobile"></i> <a href="tel:+917-966-9200">+917-966-9200</a></li>
+                                    <li><i class="la la-envelope"></i> <a href="mailto:info@lubahc.com">info@lubahc.com</a></li>
+                                    <li><i class="la la-mobile"></i> <a href="tel:+917-966-9200">917-966-9200</a></li>
                                     <!-- <li><i class="la la-clock"></i> 8AM to 6PM (Sun - Fri) Sat Off</li> -->
                                 </ul>
                                 <a class="text-white border-link" href="about.php">About us</a>
+                                <a class="text-white border-link" href="apply.php">Apply to work</a>
                             </div> <!-- header info -->
 
                            <!--  <div class="text-center text-md-right pt-10">
@@ -150,10 +151,7 @@
                                         <a href="services_health_care.php">Home Health Care</a>
                                     </li>
                                     <li class="nav-item">
-                                       <a href="services_housekeeping.php">Housekeeping</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_medical_work.php">Medical Social</a>
+                                       <a href="services_medical_work.php">Social service</a>
                                     </li>
                                     <li class="nav-item">
                                        <a href="services_nursing.php">Nursing</a>
@@ -163,6 +161,9 @@
                                     </li>
                                     <li class="nav-item">
                                        <a href="services_speech_therapy.php">Speech Therapy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a href="services_housekeeping.php">Housekeeping</a>
                                     </li>
                                   <!--   <li class="nav-item">
                                         <a href="blog.php">Blog</a>
