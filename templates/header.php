@@ -148,10 +148,7 @@
                                         </ul> -->
                                     <!-- </li> -->
                                     <li class="nav-item">
-                                        <a href="services_health_care.php">Home Health Care</a>
-                                    </li>
-                                    <li class="nav-item">
-                                       <a href="services_medical_work.php">Social service</a>
+                                       <a href="services_nursing_iv.php">IV Nursing</a>
                                     </li>
                                     <li class="nav-item">
                                        <a href="services_nursing.php">Nursing</a>
@@ -161,6 +158,12 @@
                                     </li>
                                     <li class="nav-item">
                                        <a href="services_speech_therapy.php">Speech Therapy</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="services_health_care.php">Home Health Care</a>
+                                    </li>
+                                    <li class="nav-item">
+                                       <a href="services_medical_work.php">Social service</a>
                                     </li>
                                     <li class="nav-item">
                                        <a href="services_housekeeping.php">Housekeeping</a>
